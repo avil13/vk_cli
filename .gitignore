@@ -1,0 +1,14 @@
+!.gitignore
+
+node_modules
+
+views/public/*
+token.json
+npm-debug.log
+.idea/
+Thumbs.db
+.directory
+.DS_Store
+*db.db*
+*.map
+*.log
