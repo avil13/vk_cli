@@ -1,6 +1,6 @@
 const queueMap = new Map();
 
-const hash = (...args): string => {
+const hash = (...args: any[]): string => {
     return args.reduce((a, b) => {
         if (typeof b === 'object' && b !== null) {
             //  is object or array
